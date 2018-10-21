@@ -283,28 +283,28 @@ career(business) :-
 % explanations of various fields
 
 explain(engineering) :-
-	write('Engineering'), nl,
+	write('Engineering'), nl.
 
 explain(medicine) :-
-	write('Medicine'), nl,
+	write('Medicine'), nl.
 
 explain(writer) :-
-	write('Writer'), nl,
+	write('Writer'), nl.
 
 explain(artist) :-
-	write('Artist'), nl,
+	write('Artist'), nl.
 
 explain(sportsperson) :-
-	write('Sportsperson'), nl,
+	write('Sportsperson'), nl.
 
 explain(teacher) :-
-	write('Teacher/Professor'), nl,
+	write('Teacher/Professor'), nl.
 	
 explain(business) :-
-	write('Business and Management'), nl,
+	write('Business and Management'), nl.
 	
 explain(researcher) :-
-	write('Researcher'), nl,
+	write('Researcher'), nl.
 	
 % various questions
 question(incharge) :-
